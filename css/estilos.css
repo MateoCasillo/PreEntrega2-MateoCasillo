@@ -1,5 +1,4 @@
 /* tipografia */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito+Sans:wght@200;400&display=swap');
 
 @media (max-width:700px){
     header{
@@ -30,10 +29,33 @@
 
 .texto-abajo-hamburguesas{
     padding-left: 15%;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+#texto-bacon-cheeseburguer-doble{
+    text-decoration: none;
+    text-align: center;
 }
 
-body{
+#texto-bacon-cheeseburguer-simple{
+    text-align: center;
+}
+
+.subtitulos-menu{
+    color: #541f00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.body{
     background-color: #f5ebdc;
+    
+}
+
+a{
+    text-decoration: none;
+    
 }
 
 nav a{
